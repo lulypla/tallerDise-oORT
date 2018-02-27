@@ -246,8 +246,18 @@ nav li a {
     padding: 0;
 }
 
-nav li a :hover {
+a:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    color: rgb(7, 96, 179);
+}
+
+a:active {
+    background-color: antiquewhite;
+    color: rgb(7, 96, 179);
+}
+
+.active {
     background-color: white;
     color: rgb(7, 96, 179);
 }

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" lang="es">
+    <title> CONTACTO - El Rincón - Librería </title>
+    <link rel="stylesheet" href="estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"> Home </a> </li>
+                <li><a href="#">Tienda</a> </li>
+                <li><a href="#">Talleres</a> </li>
+                <li><a href="#">Agenda</a> </li>
+                <li><a href="contacto.html">Contacto </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contenido">
+        <div>
+            <section>
+                <h1 class="margen">Formulario de contacto</h1>
+                <form action="" method="post">
+
+                    <fieldset>
+                        <legend>Usuario y contraseña</legend>
+                        <label for="email" class="labelText"> Email:</label>
+                        <input type="Email" name="username" id="email" class="inputText" required autofocus>
+
+                        <label for="password" class="labelText"> Password:</label>
+                        <input type="password" name="password" id="password" class="inputText" required>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Idiomas</legend>
+                        <label for="ingles">Ingles</label>
+                        <input type="checkbox" name="idioma" id="ingles" value="ingles">
+                        <label for="portugues">Portugues</label>
+                        <input type="checkbox" name="idioma" id="portugues" value="portugues">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Libreta de conducir </legend>
+                        <label for="libretaSi">Si</label>
+                        <input type="radio" name="libreta" value="si" id="libretaSi">
+                        <label for="libretaNo">No</label>
+                        <input type="radio" name="libreta" value="no" id="libretaNo">
+                        <label for="libretaTramite">En tramite</label>
+                        <input type="radio" name="libreta" value="tramite" id="libretaTramite">
+                    </fieldset>
+
+
+
+                    <fieldset>
+                        <legend>Pais de origen</legend>
+                        <label for="pais"> Pais</label>
+                        <select name="pais">
+                        <option value="Uruguay">Uruguay</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Colombia">Colombia</option>
+                </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Mensaje personalizado</legend>
+                        <textarea rows="4" cols="50" maxlength="200" placeholder="Describa su personalidad y sus expectativas (200 caracteres)">
+                             
+                    </textarea>
+                    </fieldset>
+
+                    <span class="botones">
+                <input type="reset" value="Reset" class="boton">
+                <input type="submit" value="Enviar" class="boton">
+                </span>
+                </form>
+
+
+            </section>
+        </div>
+        <div class="ubicacion margen">
+            <section>
+
+
+                <div class="direcciones ">
+
+                    <h2>Ubicación</h2>
+                    <address>
+                            Sucursales</br>
+                            Casa Central – Misiones 1399 – Tel: 2140 2523</br>
+                            Sucursal Colón - Garzón 1970 - Tel: 2320 9946</br>
+                            Sucursal Cordón - Constituyente 1402 - Tel: 2900 4762</br>
+                            Sucursal General Flores - General Flores 2548 esq. Concepción Arenal - Tel: 1958 int. 2750-2755</br>
+                </address>
+                </div>
+                <div class="mapa ">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.1044355580602!2d-56.19297868512915!3d-34.90382858094524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDU0JzEzLjgiUyA1NsKwMTEnMjYuOCJX!5e0!3m2!1ses!2suy!4v1519761084143 "
+                        width="500px " height="450 " frameborder="0 " style="border:0 " allowfullscreen></iframe>
+                </div>
+
+
+            </section>
+        </div>
+    </div>
+    <div class="clear "></div>
+
+    <footer>
+        <p>
+            E.mail de contacto: <a href="mailto:elrincon@gmail.com ">
+        elrincon@gmail.com</a></p>
+    </footer>
+</body>
+
+
+</html>
